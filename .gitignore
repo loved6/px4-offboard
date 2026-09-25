@@ -1,2 +1,14 @@
-*.pyc
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+build/
+
+# IDE
 .vscode/*
+
+# Virtual environment
+px4_offboard_env/
